@@ -1,8 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Hello Android</string>
     <string name="company_name">Udacity</string>
     <string name="address_a">2465 Latham St</string>
     <string name="address_b">Mountain View, CA 94043</string>
-    <string name="phone">650-555-5555</string>
+    <string name="phone" tools:ignore="TypographyDashes">650-555-5555</string>
     <string name="website">www.udacity.com</string>
 </resources>
