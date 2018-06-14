@@ -12,38 +12,42 @@
 
         <ImageView
             android:id="@+id/picture"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
             android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
             android:src="@drawable/udacity_office" />
 
         <TextView
             android:id="@+id/business_name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
+            android:gravity="start"
             android:text="@string/company_name" />
 
         <TextView
             android:id="@+id/address_a"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
+            android:gravity="start"
             android:text="@string/address_a" />
 
         <TextView
             android:id="@+id/address_b"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_weight="1"
+            android:gravity="start"
             android:text="@string/address_b" />
 
         <TextView
@@ -57,11 +61,12 @@
 
         <TextView
             android:id="@+id/website"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
+            android:gravity="start"
             android:text="@string/website" />
 
     </LinearLayout>
